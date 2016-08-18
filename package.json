@@ -1,0 +1,17 @@
+{
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "hapi": "^14.2.0",
+    "pg": "^6.1.0",
+    "pg-hstore": "^2.3.2",
+    "config": "^1.21.0",
+    "sequelize": "^3.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.0"
+  }
+}
